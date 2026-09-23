@@ -89,7 +89,7 @@ Detections are written in **SPL (Splunk Search Processing Language)** and valida
 
 | File | Description | Link |
 |---|---|---|
-| `sysmonconfig-export.xml` | Sysmon configuration — defines which events to log (process creation, network, registry, file) | [View →](config/sysmonconfig-export.xml) |
+| `sysmonconfig-export.xml` | Sysmon configuration — defines which events to log (process creation, network, registry, file) | [View →](https://github.com/SwiftOnSecurity/sysmon-config/blob/master/sysmonconfig-export.xml) |
 | `inputs.conf` | Splunk Universal Forwarder config — defines which Windows Event logs to forward to Splunk | [View →](config/inputs.conf) |
 
 **Key log sources enabled in `inputs.conf`:**
