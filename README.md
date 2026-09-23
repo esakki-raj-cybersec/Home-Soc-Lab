@@ -54,8 +54,8 @@ Ensure you have the following components prepared before beginning the SOC home 
 
 | Document | Description | Link |
 |---|---|---|
-| VM Installation Guide | Step-by-step setup for VMWare, Ubuntu Server, Windows 10, and Kali Linux VMs | [View →](docs/vmmachinesInstallation.docx) |
-| Splunk Setup Guide | Installing Splunk Enterprise, Universal Forwarder, Sysmon, and verifying log ingestion | [View →](docs/splunkInstallation.md) |
+| VM Installation Guide | Step-by-step setup for VMWare, Ubuntu Server, Windows 10, and Kali Linux VMs | [View →](/docs/vmmachinesInstallation.docx) |
+| Splunk Setup Guide | Installing Splunk Enterprise, Universal Forwarder, Sysmon, and verifying log ingestion | [View →](/docs/SplunkInstallation.md) |
 
 ---
 
@@ -63,8 +63,8 @@ Ensure you have the following components prepared before beginning the SOC home 
 
 | # | Attack | Tools Used | Kill Chain Coverage | MITRE ATT&CK | Format | Link |
 |---|---|---|---|---|---|---|
-| 1 | RDP Brute Force + Create New accout | nmap,Hydra, xfreerdp |  ___ | T1110.001, T1136.001 | Summary | [View →](scenarios/scenario1.md) |
-| 2 | RDP Brute Force + Meterpreter Backdoor & Persistence | Hydra, msfvenom, Metasploit | All 7 Phases | T1110.001, T1547.001, T1053.005, T1571 | Cyber Kill Chain (Stage-by-Stage) | [View →](scenarios/scenario2.md) |
+| 1 | RDP Brute Force + Create New accout | nmap,Hydra, xfreerdp |  ___ | T1110.001, T1136.001 | Summary | [View →](/scenarios/Scenario1.md) |
+| 2 | RDP Brute Force + Meterpreter Backdoor & Persistence | Hydra, msfvenom, Metasploit | All 7 Phases | T1110.001, T1547.001, T1053.005, T1571 | Cyber Kill Chain (Stage-by-Stage) | [View →](/scenarios/Scenario2.md) |
 
 ---
 
@@ -90,7 +90,7 @@ Detections are written in **SPL (Splunk Search Processing Language)** and valida
 | File | Description | Link |
 |---|---|---|
 | `sysmonconfig-export.xml` | Sysmon configuration — defines which events to log (process creation, network, registry, file) | [View →](https://github.com/SwiftOnSecurity/sysmon-config/blob/master/sysmonconfig-export.xml) |
-| `inputs.conf` | Splunk Universal Forwarder config — defines which Windows Event logs to forward to Splunk | [View →](config/inputs.conf) |
+| `inputs.conf` | Splunk Universal Forwarder config — defines which Windows Event logs to forward to Splunk | [View →](/config/inputs.conf) |
 
 **Key log sources enabled in `inputs.conf`:**
 ```ini
