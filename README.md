@@ -55,7 +55,7 @@ Ensure you have the following components prepared before beginning the SOC home 
 | Document | Description | Link |
 |---|---|---|
 | VM Installation Guide | Step-by-step setup for VMWare, Ubuntu Server, Windows 10, and Kali Linux VMs | [View →](docs/vmmachinesInstallation.docx) |
-| Splunk Setup Guide | Installing Splunk Enterprise, Universal Forwarder, Sysmon, and verifying log ingestion | [View →](docs/splunkinstallation.md) |
+| Splunk Setup Guide | Installing Splunk Enterprise, Universal Forwarder, Sysmon, and verifying log ingestion | [View →](docs/splunkInstallation.md) |
 
 ---
 
