@@ -28,7 +28,7 @@ sudo apt update && sudo apt upgrade -y
 ```
 ### Step 2: Download Splunk Enterprise
  - Go to splunk official site and create free Splunk account to get the link.
- - Go to splunk.com/download → Splunk Enterprise → Linux → copy the .deb package wget link.![DownloandLink](screenshots/setup/downlonad_screenshot.png)
+ - Go to splunk.com/download → Splunk Enterprise → Linux → copy the .deb package wget link.![DownloandLink](../screenshots/setup/downlonad_screenshot.png)
  - Paste your download link, Download using wget in ubuntu server.
     ```bash
     wget -O splunk.deb "https://download.splunk.com/products/splunk/releases/<version>/linux/splunk-<version>-linux-2.6-amd64.deb"
@@ -61,13 +61,13 @@ sudo ufw allow 9997/tcp    # Forwarder receiving port
 sudo ufw enable 
 sudo ufw status  
 ``` 
-![Firewall Status](screenshots/setup/firewallstatus.png)
+![Firewall Status](/screenshots/setup/firewallstatus.png)
 
 ### Step 8: Access the web UI
 - From your host machine browser: https://splunkserver-ip:8000
 
 - Log in with admin/password you set in Step 5.
-![splunk_web](screenshots/setup/splunkweb.png)
+![splunk_web](/screenshots/setup/splunkweb.png)
 
 ### Step 9: Enable receiving & Verify Splunk is running
 ```bash
@@ -80,7 +80,7 @@ Do this on each windows VM (10 and 11)
 
 ### Step 1: Download Sysmon
 - Get it from Microsoft Sysinternals: https://learn.microsoft.com/sysinternals/downloads/sysmon
- ![sysmon](screenshots/setup/sysmon.png)
+ ![sysmon](/screenshots/setup/sysmon.png)
 - Extract the ZIP to a folder, e.g., C:\Tools\Sysmon\
 
 ### Step 2: Download a Sysmon config
@@ -99,7 +99,7 @@ https://github.com/SwiftOnSecurity/sysmon-config → download **sysmonconfig-exp
 
 ### Step 5: Download Splunk Universal Forwarder
 - On the Windows VM, go to splunk.com/download (scroll the page) → Universal Forwarder (login if they ask) → Download 64 bit Windows 10/11 .msi
-![universalforwarder](screenshots/setup/universal_forwarder.png)
+![universalforwarder](/screenshots/setup/universal_forwarder.png)
 
 ### Step 6: Install the Universal Forwarder
 - Run the .msi 

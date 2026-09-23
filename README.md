@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 About This Project
+## 📝 About This Project
 
 This lab was built to gain practical experience in:
 - Setting up a SIEM (Splunk) in a virtualised environment
@@ -14,6 +14,18 @@ This lab was built to gain practical experience in:
 - Documenting findings in a SOC analyst report format aligned to the **Cyber Kill Chain**
 
 Every attack scenario includes a full walkthrough - attacker commands, generated Event IDs, Splunk detection queries, severity rating, and analyst response actions.
+---
+
+## 📌 Requirements 
+Ensure you have the following components prepared before beginning the SOC home lab setup:
+
+
+| Componants | Description |
+|---|---|
+|RAM |At least 16 GB is Recommended for Multiple VMS|
+|virtualization Software | Virtual Box or VMWare workstation to create a multile VMS |
+|ISOs | Kali linux, Window 10 and 11, Ubuntu server from offical pages|
+|Security Tools | Splunk Enterprises,Universal Forwarder and sysmon for log collection and analysis|
 ---
 
 ## 🖥️ Lab Architecture
